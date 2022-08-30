@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">update</string>
+    <string name="downloadStart">Download Start</string>
+    <string name="downloadFail">Download Fail</string>
+    <string name="downloadSuccess">Download Success</string>
+    <string name="installSuccess">Install Success</string>
+    <string name="downloadSuccessToClick">Download completed, click Install</string>
+    <string name="er_downloadUrl">Download link error</string>
+    <string name="pt_downloading">Downloading</string>
+    <string name="pt_waiting">Waiting...</string>
+    <string name="pt_checkUpdate">Check for updates</string>
+    <string name="pt_downloadedIsInstall">Version %s has been downloaded,Do you want to install it！</string>
+    <string name="pt_install">Install</string>
+    <string name="pt_installPrompt">Install Prompt</string>
+    <string name="pt_cancel">Cancel</string>
+    <string name="pt_installFileIsDelete">The installation file has been deleted</string>
+    <string name="pt_findNewVersion">New version %s found. Update</string>
+    <string name="updateNow">Update now</string>
+</resources>

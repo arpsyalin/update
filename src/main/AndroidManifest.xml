@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lyl.autoupdate">
+
+    <application>
+        <service android:name=".service.ApkUpdateService" />
+        <provider
+            android:name=".provider.UpdateProvider"
+            android:authorities="com.lyl.autoupdate.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+    </application>
+</manifest>
